@@ -3,7 +3,7 @@ def intersection(list1, list2):
     intersected_elements = list(filter(lambda x: x in list2, list1))
     return intersected_elements
 
-# Example usage:
+
 list1 = [1, 2, 3, 4, 5]
 list2 = [3, 4, 5, 6, 7]
 intersection_list = intersection(list1, list2)
